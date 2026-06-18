@@ -65,7 +65,7 @@ https://drive.google.com/file/d/1UDzdZbo-OhQ2Mm_pInUCPzrcHAuIJIu7/view?usp=share
 
 
 The notebook requires preprocessed patient-level `.tsv` files containing spatial cell information.
-The `.tsv` files used in this analysis were generated using the [process_all.py]('process_all.py'), which internally calls: a [add_cell_type.py]('add_cell_type.py').
+The `.tsv` files used in this analysis were generated using the [process_all.py](process_all.py), which internally calls: a [add_cell_type.py](add_cell_type.py).
 
 Run the main preprocessing script in the *root* directory, then move the output tsv files to `root/unzipped/tsv/cells_properties/` or simply change the DATA_DIR at the start of the notebook.
 
@@ -73,7 +73,7 @@ Run the main preprocessing script in the *root* directory, then move the output 
 This script prepares the raw input data by properly formatting the files used by the analysis notebook.
 
 ### Notebook
-To run the complete analysis, open the [main notebook]('analysis.ipynb') and run all cells from top to botoom.
+To run the complete analysis, open the [main notebook](miF_analysis.ipynb) and run all cells from top to botoom.
 
 
 
